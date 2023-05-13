@@ -1,0 +1,120 @@
+// Desktop: headings, p, small
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+// // regular - 400
+// @font-face {
+//   font-family: 'Gothic A1';
+//   font-style: normal;
+//   src: url('https://early21-assets.s3.ap-northeast-2.amazonaws.com/font/GothicA1-Regular.ttf');
+//   font-weight: 400;
+// }
+
+// // medium - 500
+// @font-face {
+//   font-family: 'Gothic A1';
+//   font-style: normal;
+//   src: url('https://early21-assets.s3.ap-northeast-2.amazonaws.com/font/GothicA1-Medium.ttf');
+//   font-weight: 500;
+// }
+
+// // bold - 700
+// @font-face {
+//   font-family: 'Gothic A1';
+//   font-style: normal;
+//   font-weight: 700;
+//   src: url('https://early21-assets.s3.ap-northeast-2.amazonaws.com/font/GothicA1-Bold.ttf');
+// }
+
+*,
+body {
+  font-family: 'Roboto', 'Noto Sans KR', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: @gray-900;
+  line-height: 1.65em;
+  letter-spacing: -0.02em;
+  word-break: keep-all;
+  -webkit-font-smoothing: antialiased; // Chrome, Safari
+  -moz-osx-font-smoothing: grayscale; // Firefox
+}
+
+h1 {
+  font-size: 35px;
+  line-height: 1em;
+  letter-spacing: -0.04em;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 29px;
+  line-height: 1.2em;
+  letter-spacing: -0.03em;
+}
+
+h3 {
+  font-size: 23px;
+  line-height: 1em;
+  letter-spacing: -0.02em;
+}
+
+h4 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1em;
+}
+
+h5 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1em;
+}
+
+p {
+  font-size: 15px;
+  line-height: 1.65em;
+}
+
+span,
+b {
+  font-size: inherit;
+  color: inherit;
+}
+
+small {
+  font-size: 12px;
+  line-height: 1em;
+}
+
+// Desktop: headings, p, small
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+@media (max-width: 650px) {
+  *,
+  body {
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  h1 {
+    font-size: 28px;
+    font-weight: 500;
+  }
+
+  h2 {
+    font-size: 21px;
+    font-weight: 700;
+  }
+
+  h3 {
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  h4 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
